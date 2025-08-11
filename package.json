@@ -1,0 +1,14 @@
+{
+  "name": "Hranilnica",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "tailwindcss -i ./style.css -o ./output.css --content ./index.html",
+    "watch": "tailwindcss -i ./style.css -o ./output.css --watch --content ./index.html"
+  },
+  "author": "Alen",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "tailwindcss": "^4.1.11"
+  }
+}
